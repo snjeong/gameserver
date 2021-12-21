@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Project">
+      <UniqueIdentifier>{0ebd862d-d6cd-47b0-b8d5-5c083ffc283b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Service">
+      <UniqueIdentifier>{6837a8a9-44d5-4323-bd88-2ec5bfdec9b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{95fe6291-e9da-487f-84a1-a58f3ee2e81f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Task Process">
+      <UniqueIdentifier>{0639b5a4-359f-4656-b9c6-7e82304a6f5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{62324ee0-2178-4651-8029-83223c5b5eca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocol">
+      <UniqueIdentifier>{cee20f21-5e38-434e-a96c-bc20031b4288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocol\Generated Files">
+      <UniqueIdentifier>{ec949db8-0242-4fc7-a8a4-fc5965acc999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity%28user, room, match, etc %29">
+      <UniqueIdentifier>{5ec1b114-472b-449f-86e3-83221f5cfd05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Service\DBMS">
+      <UniqueIdentifier>{61b71870-188a-4ffc-a5bb-6e8cf9227172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Task Process\Contexts">
+      <UniqueIdentifier>{477fa4ee-c589-4fc6-be43-5cdf97a8f202}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System management">
+      <UniqueIdentifier>{89dfbc99-ab98-4fd7-b259-888c1799c01e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Service\Authenticator">
+      <UniqueIdentifier>{87512568-f61c-4c70-9fa9-b30f77031e23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Service\MMS">
+      <UniqueIdentifier>{8f325de9-a379-4ef8-9792-549087312d80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Service\RoomService">
+      <UniqueIdentifier>{12093b36-9267-4ebd-a51d-2de07a745f65}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="Service.h">
+      <Filter>System management</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceManager.h">
+      <Filter>System management</Filter>
+    </ClInclude>
+    <ClInclude Include="MSAcceptor.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskManager.h">
+      <Filter>Task Process</Filter>
+    </ClInclude>
+    <ClInclude Include="Dispatcher.h">
+      <Filter>Task Process</Filter>
+    </ClInclude>
+    <ClInclude Include="Task.h">
+      <Filter>Task Process</Filter>
+    </ClInclude>
+    <ClInclude Include="MSLink.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Log4MonSumm.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Entity%28user, room, match, etc %29</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceFactory.h">
+      <Filter>System management</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Entity%28user, room, match, etc %29</Filter>
+    </ClInclude>
+    <ClInclude Include="Match.h">
+      <Filter>Entity%28user, room, match, etc %29</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\Include\GeneratedFiles\RoomServerInteralMessage.h">
+      <Filter>Protocol\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Worker.h">
+      <Filter>Task Process</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\GeneratedFiles\MonSummMsgForRoomServer.h">
+      <Filter>Protocol\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MsMRSConnector.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="DBMS.h">
+      <Filter>Service\DBMS</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Service\DBMS</Filter>
+    </ClInclude>
+    <ClInclude Include="Query.h">
+      <Filter>Service\DBMS</Filter>
+    </ClInclude>
+    <ClInclude Include="MRSSvcContext.h">
+      <Filter>Task Process\Contexts</Filter>
+    </ClInclude>
+    <ClInclude Include="UserContext.h">
+      <Filter>Task Process\Contexts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\GeneratedFiles\MonSummMsgForRoomServerAndMMS.h">
+      <Filter>Protocol\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Context.h">
+      <Filter>Task Process\Contexts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\XpathUtil.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Config.h">
+      <Filter>System management</Filter>
+    </ClInclude>
+    <ClInclude Include="Authenticator.h">
+      <Filter>Service\Authenticator</Filter>
+    </ClInclude>
+    <ClInclude Include="MatchMakingService.h">
+      <Filter>Service\MMS</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomService.h">
+      <Filter>Service\RoomService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="Service.cpp">
+      <Filter>System management</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceManager.cpp">
+      <Filter>System management</Filter>
+    </ClCompile>
+    <ClCompile Include="MSAcceptor.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskManager.cpp">
+      <Filter>Task Process</Filter>
+    </ClCompile>
+    <ClCompile Include="Task.cpp">
+      <Filter>Task Process</Filter>
+    </ClCompile>
+    <ClCompile Include="MSLink.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Log4MonSumm.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Entity%28user, room, match, etc %29</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Entity%28user, room, match, etc %29</Filter>
+    </ClCompile>
+    <ClCompile Include="Match.cpp">
+      <Filter>Entity%28user, room, match, etc %29</Filter>
+    </ClCompile>
+    <ClCompile Include="Worker.cpp">
+      <Filter>Task Process</Filter>
+    </ClCompile>
+    <ClCompile Include="MsMRSConnector.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="DBMS.cpp">
+      <Filter>Service\DBMS</Filter>
+    </ClCompile>
+    <ClCompile Include="Query.cpp">
+      <Filter>Service\DBMS</Filter>
+    </ClCompile>
+    <ClCompile Include="MRSSvcContext.cpp">
+      <Filter>Task Process\Contexts</Filter>
+    </ClCompile>
+    <ClCompile Include="UserContext.cpp">
+      <Filter>Task Process\Contexts</Filter>
+    </ClCompile>
+    <ClCompile Include="Context.cpp">
+      <Filter>Task Process\Contexts</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\XpathUtil.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Config.cpp">
+      <Filter>System management</Filter>
+    </ClCompile>
+    <ClCompile Include="Authenticator.cpp">
+      <Filter>Service\Authenticator</Filter>
+    </ClCompile>
+    <ClCompile Include="MatchMakingService.cpp">
+      <Filter>Service\MMS</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomService.cpp">
+      <Filter>Service\RoomService</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RoomServer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\Interface\RoomServerInteralMessage.b">
+      <Filter>Protocol</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Interface\MonSummMsgForRoomServer.b">
+      <Filter>Protocol</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Interface\MonSummMsgForRoomServerAndMMS.b">
+      <Filter>Protocol</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

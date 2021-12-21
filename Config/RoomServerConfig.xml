@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<server>
+<id> 1 </id>
+<ip> 10.77.29.99</ip>
+<port> 10004 </port> 
+<max_room> 3000 </max_room>
+</server>

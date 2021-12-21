@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Log4XConfig xmlns="http://www.nhncorp.com/xgp/Log4XConfig.xsd">
+	<Log4X ServiceName="MonSumm_Server"/>
+
+	<!-- Logger information -->
+	<Loggers>
+		<Logger Name="MonSumm_ServerLogger" LogLevel="Info"/>
+	</Loggers>
+
+	<!-- Appender information -->
+	<Appenders>
+		<Appender Name="MonSummServerLog_FileAppender" Type="Log4XBasic.DailyRollingFileAppender">
+			<AppenderParameter Name="LoggingDirectory" Value=".\Log\MonSumm"/>
+			<AppenderParameter Name="Schedule" Value="Hourly"/>
+			<AppenderParameter Name="FileNamePrefix" Value="MonSumm_"/>
+			<AppenderParameter Name="FileNamePostfix" Value=".log" />
+			<AppenderParameter Name="ImmediateFlush" Value="true" />
+			<AppenderParameter Name="Append" Value="true" />
+		</Appender>
+		<Appender Name="ConsoleAppender" Type="Log4XBasic.ConsoleAppender"/>
+	</Appenders>
+
+	<!-- Layout information -->
+	<Layouts>
+		<Layout Name="Simple Layout" Type="Log4XBasic.SimpleLayout"/>
+	</Layouts>
+
+	<!-- Logger binding information -->
+	<LoggerBindings>
+		<LoggerBinding LoggerRef="MonSumm_ServerLogger">
+			<AppenderRef Name="MonSummServerLog_FileAppender"/>
+			<AppenderRef Name="ConsoleAppender"/>
+		</LoggerBinding>
+	</LoggerBindings>
+
+	<!-- Appender binding information -->
+	<AppenderBindings>
+		<AppenderBinding AppenderRef="MonSummServerLog_FileAppender">
+			<LayoutRef Name="Simple Layout"/>
+		</AppenderBinding>
+		<AppenderBinding AppenderRef="ConsoleAppender">
+			<LayoutRef Name="Simple Layout"/>
+		</AppenderBinding>
+	</AppenderBindings>
+</Log4XConfig>
